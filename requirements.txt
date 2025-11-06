@@ -1,0 +1,7 @@
+streamlit==0.88.0  # As of my last update, you might want to check for the latest version.
+earthengine-api==0.1.374  # As of my last update, you might want to check for the latest version.
+folium==0.12.1  # As of my last update, you might want to check for the latest version.
+streamlit-folium==0.3.0  # As of my last update, you might want to check for the latest version.
+folium==0.12.1
+protobuf==3.20.3
+altair==4.1.0
