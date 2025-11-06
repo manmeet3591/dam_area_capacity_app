@@ -236,7 +236,7 @@ if start_date > end_date:
     st.error("Start date must be on or before End date.")
     st.stop()
 
-st.markdown("**Area of Interest (AOI):** Square centered on Panshet Dam, Pune. Default **2 km × 2 km** (adjustable).")
+st.markdown("**Area of Interest (AOI):** Square centered on Panshet Dam, Pune.")
 
 c1, c2, c3 = st.columns([1, 1, 1])
 with c1:
