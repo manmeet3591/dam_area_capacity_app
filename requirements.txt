@@ -1,7 +1,20 @@
-streamlit==0.88.0  # As of my last update, you might want to check for the latest version.
-earthengine-api==0.1.374  # As of my last update, you might want to check for the latest version.
-folium==0.12.1  # As of my last update, you might want to check for the latest version.
-streamlit-folium==0.3.0  # As of my last update, you might want to check for the latest version.
-folium==0.12.1
+# Core app
+streamlit>=1.33
+pandas>=2.2
+numpy>=1.26
+
+# Mapping
+folium>=0.15
+streamlit-folium>=0.20
+branca>=0.6
+
+# Earth Engine
+earthengine-api>=0.1.382
+google-auth>=2.20
+google-api-python-client>=2.100
+
+# Compatibility: EE has historically preferred protobuf 3.x; this version is widely compatible.
 protobuf==3.20.3
-altair==4.1.0
+
+# Streamlit 1.x doesn’t need pkg_resources, but other libs may; safe to include.
+setuptools>=68
