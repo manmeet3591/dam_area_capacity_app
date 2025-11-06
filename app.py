@@ -37,7 +37,7 @@ def login_form():
         if u == VALID_USER and p == VALID_PASS:
             st.session_state.authenticated = True
             st.success("Logged in!")
-            st.experimental_rerun()
+            st.rerun()
         else:
             st.error("Invalid username or password")
 
