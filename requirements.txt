@@ -1,20 +1,10 @@
-# Core app
 streamlit>=1.33
 pandas>=2.2
-numpy>=1.26
-
-# Mapping
+altair>=5.2
 folium>=0.15
 streamlit-folium>=0.20
-branca>=0.6
-
-# Earth Engine
 earthengine-api>=0.1.382
 google-auth>=2.20
 google-api-python-client>=2.100
-
-# Compatibility: EE has historically preferred protobuf 3.x; this version is widely compatible.
 protobuf==3.20.3
-
-# Streamlit 1.x doesn’t need pkg_resources, but other libs may; safe to include.
 setuptools>=68
