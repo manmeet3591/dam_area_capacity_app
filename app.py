@@ -224,7 +224,7 @@ def make_map(aoi_bounds, center_lat, center_lon, zoom=12):
 # --------------------------------------------------------------------------------------
 # UI
 # --------------------------------------------------------------------------------------
-st.title("Dynamic World • Monthly Water Area — Panshet Dam (2 km × 2 km)")
+st.title("Dynamic World • Monthly Water Area — Panshet Dam")
 
 colA, colB = st.columns([1, 1])
 with colA:
