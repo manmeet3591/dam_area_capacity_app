@@ -244,7 +244,7 @@ with c1:
 with c2:
     center_lon = st.number_input("Center longitude", value=DEFAULT_CENTER_LON, format="%.6f")
 with c3:
-    side_km = st.number_input("Square side length (km)", value=2.0, min_value=0.5, step=0.5, format="%.1f")
+    side_km = st.number_input("Square side length (km)", value=10.0, min_value=0.5, step=0.5, format="%.1f")
 
 threshold = st.slider(
     "Water probability threshold (applied to monthly mean of Dynamic World 'water' band)",
